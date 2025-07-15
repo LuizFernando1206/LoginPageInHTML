@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  flex-direction: column;
+  gap: 20px;
+  padding: 60px;
+  background-color: rgb(67, 68, 117);
+  border: solid 2px black;
+  border-radius: 6px;
+  height: auto;
+  width: auto;
+}
+body {
+  background-color: rgb(210, 192, 244);
+}
+input {
+  border: solid 2px black;
+  border-radius: 6px;
+}
+a {
+  font-weight: bold;
+  color: rgb(61, 61, 255);
+}
